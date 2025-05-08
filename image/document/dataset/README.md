@@ -14,5 +14,5 @@
 ##### There was no missing value
 ## I checked for Duplicate
 ![duplicate](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-4.png)
-There was no duplicated value or row
+##### There was no duplicated value or row
 ## I checked for data types
