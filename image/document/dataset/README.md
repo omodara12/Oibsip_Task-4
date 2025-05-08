@@ -8,7 +8,11 @@
 ## Loading Dataset
 ![dataset](https://github.com/omodara12/Oibsip_Task-4/blob/main/Task%204_1.png)
 ![dataset](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-2.png)
-## Data cleaning and Explorations 
+##### Dataset Overview
+##### The dataset consists of multiple features describing a house, including:
+##### •	Numerical: Area, bedrooms, bathrooms, stories, parking, price
+##### •	Categorical: Furnishing status, main road access, guest room availability, etc.
+## Data cleaning and Explorations
 ## I checked for missing values
 ![missing values](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-3.png)
 ##### There was no missing value
@@ -20,7 +24,7 @@
 ## SELECTING NUMERICAL FEATURES/COLUMNS
 ##### numeric_cols = df.select_dtypes(include=["int64", "float64"]).columns
 df[numeric_cols].describe()
-## Selecting Numerical Columns
+## Selecting Numerical Columns/Features
 ![numerical features](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-6.png)
 
 
