@@ -39,8 +39,9 @@ df[numeric_cols].describe()
 ![code](https://github.com/omodara12/Oibsip_Task-4/blob/main/price(out).png)
 ## Before and After Outliers
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/Before%26After(C).png)
-
-## Effect of outliers removal outliers on Numerical Features
+![](https://github.com/omodara12/Oibsip_Task-4/blob/main/visual.png)
+![]()
+![]()
 
 
 
