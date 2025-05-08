@@ -40,7 +40,8 @@ df[numeric_cols].describe()
 ## Before and After Outliers
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/Before%26After(C).png)
 
-## Before and After outliers for Numerical Features
+## Effect of outliers removal outliers on Numerical Features
+
 
 
 
