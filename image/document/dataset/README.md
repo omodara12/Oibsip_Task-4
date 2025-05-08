@@ -50,6 +50,26 @@ df[numeric_cols].describe()
 ##### I applied an interquartile range (IQR)-based filter to remove extreme values.
 ## •	Before: Features like area and price had long tails, skewing the distribution and negatively impacting model performance.
 ## •	After: Distributions became more centered, cabable of improving model's ability to generalize.
+## Features selection and Preprocessing
+##### from sklearn.model_selection import train_test_split
+##### from sklearn.preprocessing import OneHotEncoder
+##### from sklearn.compose import ColumnTransformer
+
+## Features and target
+##### X = df.drop("price", axis=1)
+##### y = df["price"]
+
+## Identify categorical columns
+##### categorical_cols = X.select_dtypes(include="object").columns
+##### numeric_cols = X.select_dtypes(exclude="object").columns
+
+## One-hot encoding for categorical columns
+##### preprocessor = ColumnTransformer(
+##### transformers=[("cat", OneHotEncoder(drop="first"), categorical_cols)],
+    
+##### remainder="passthrough"
+)
+
 
 
 
