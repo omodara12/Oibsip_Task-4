@@ -40,6 +40,7 @@ df[numeric_cols].describe()
 ## Before and After Outliers
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/Before%26After(C).png)
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/visual.png)
+![](https://github.com/omodara12/Oibsip_Task-4/blob/main/visual2.png)
 
 
 
