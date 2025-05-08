@@ -42,6 +42,15 @@ df[numeric_cols].describe()
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/visual.png)
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/visual2.png)
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/visual3.png)
+## Outlier Detection and Removal Interpretation
+##### I visualized and analyzed outliers in numerical features using boxplots. Significant outliers were identified in:
+##### •	area
+##### •	price
+##### •	bedrooms
+##### I applied an interquartile range (IQR)-based filter to remove extreme values.
+## •	Before: Features like area and price had long tails, skewing the distribution and negatively impacting model performance.
+## •	After: Distributions became more centered, improving the model's ability to generalize.
+
 
 
 
