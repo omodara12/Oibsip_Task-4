@@ -18,5 +18,7 @@
 ## I checked for data types
 ![datatype](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-5.png)
 ## SELECTING NUMERICAL FEATURES/COLUMNS
+##### numeric_cols = df.select_dtypes(include=["int64", "float64"]).columns
+df[numeric_cols].describe()
 
 
