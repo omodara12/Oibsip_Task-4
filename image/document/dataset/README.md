@@ -38,6 +38,8 @@ df[numeric_cols].describe()
 ## REMOVING OUTLIERS FOR HOUSE PRICE
 ![code](https://github.com/omodara12/Oibsip_Task-4/blob/main/price(out).png)
 
+## Before and After outliers for Numerical Features
+
 
 
 
