@@ -27,6 +27,7 @@ df[numeric_cols].describe()
 ## Selecting Numerical Columns/Features
 ![numerical features](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-6.png)
 ## HISTOGRAM FOR NUMERICAL FEATURES
+![histogram](https://github.com/omodara12/Oibsip_Task-4/blob/main/histo.png)
 ![histogram](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-9.png)
 
 
