@@ -49,7 +49,7 @@ df[numeric_cols].describe()
 ##### •	bedrooms
 ##### I applied an interquartile range (IQR)-based filter to remove extreme values.
 ## •	Before: Features like area and price had long tails, skewing the distribution and negatively impacting model performance.
-## •	After: Distributions became more centered, improving the model's ability to generalize.
+## •	After: Distributions became more centered, cabable of improving model's ability to generalize.
 
 
 
