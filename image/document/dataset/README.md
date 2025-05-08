@@ -37,6 +37,8 @@ df[numeric_cols].describe()
 ![visual](https://github.com/omodara12/Oibsip_Task-4/blob/main/boxplot%20visualpng.png)
 ## REMOVING OUTLIERS FOR HOUSE PRICE
 ![code](https://github.com/omodara12/Oibsip_Task-4/blob/main/price(out).png)
+## Before and After Outliers
+![](https://github.com/omodara12/Oibsip_Task-4/blob/main/Before%26After(C).png)
 
 ## Before and After outliers for Numerical Features
 
