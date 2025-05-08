@@ -30,5 +30,6 @@ df[numeric_cols].describe()
 ![histogram](https://github.com/omodara12/Oibsip_Task-4/blob/main/histo.png)
 ![histogram](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-9.png)
 ## DETECTING OUTLIERS USING IQR
+![iqr](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-10.png)
 
 
