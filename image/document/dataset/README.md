@@ -32,5 +32,6 @@ df[numeric_cols].describe()
 ## DETECTING OUTLIERS USING IQR
 ![iqr](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-10.png)
 ![code](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-11.png)
+## Visualize with Boxplots
 
 
