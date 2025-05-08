@@ -36,6 +36,7 @@ df[numeric_cols].describe()
 ![code](https://github.com/omodara12/Oibsip_Task-4/blob/main/boxplot(v).png)
 ![visual](https://github.com/omodara12/Oibsip_Task-4/blob/main/boxplot%20visualpng.png)
 ## REMOVING OUTLIERS FOR HOUSE PRICE
+![code](https://github.com/omodara12/Oibsip_Task-4/blob/main/price(out).png)
 
 
 
