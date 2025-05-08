@@ -7,4 +7,5 @@
 ##### .Model evaluation and interpretation skill
 ## Loading Dataset
 ![dataset](https://github.com/omodara12/Oibsip_Task-4/blob/main/Task%204_1.png)
+![dataset](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-2.png)
 ## Data cleaning and Explorations 
