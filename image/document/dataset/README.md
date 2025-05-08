@@ -10,5 +10,7 @@
 ![dataset](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-2.png)
 ## Data cleaning and Explorations 
 ## I checked for missing values
+![missing values](https://github.com/omodara12/Oibsip_Task-4/blob/main/task4-3.png)
+##### There was no missing value
 ## I checked for Duplicate 
 ## I checked for data types
