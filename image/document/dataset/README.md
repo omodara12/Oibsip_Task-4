@@ -89,7 +89,7 @@ df[numeric_cols].describe()
 ##### •	R² Score: Measures how well the model explains variability in housing prices
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/mode(ev).png)
 ## Interpretation
-##### • An R² of 0.69 means the model explains ~69% of the variance in housing prices, which is decent for a simple linear model.
+##### • An R² of 0.65 means the model explains ~65% of the variance in housing prices, which is decent for a simple linear model.
 ##### • Removing outliers improved both metrics significantly, showing the importance of data cleaning.
 
 
