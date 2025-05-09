@@ -93,6 +93,7 @@ df[numeric_cols].describe()
 ##### • Removing outliers improved both metrics significantly, showing the importance of data cleaning.
 ## Visualization:Actual Prices vs Predicted House Prices
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/visual%20code.png)
+![](https://github.com/omodara12/Oibsip_Task-4/blob/main/actual.png)
 
 
 
