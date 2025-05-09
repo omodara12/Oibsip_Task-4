@@ -116,7 +116,9 @@ df[numeric_cols].describe()
 ##### The residuals are centered around zero, which is expected in a good model.
 ##### There are some randomness in the spread, indicating the model is not strongly biased in one direction.
 ## Conclusion
-##### This project demonstrates the full cycle of predictive modeling using linear regression. Starting with data exploration and cleaning—especially the impact of outliers—we progressed through encoding, modeling, and evaluation.
+##### This project successfully demonstrated the application of linear regression to predict housing prices based on a real-world dataset. Through systematic data exploration, cleaning, feature engineering, and model evaluation, we built a predictive model that explains approximately 65% of the variance in house prices—a strong foundation for a first iteration.
+##### The visualizations of actual versus predicted values and residuals clearly show that the model captures the underlying trends in the data, especially for mid-range properties. With further refinements—such as advanced feature engineering or alternative algorithms—this model has the potential to become a robust tool for accurate real estate price prediction.
+
 
 
 
