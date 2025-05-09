@@ -94,6 +94,25 @@ df[numeric_cols].describe()
 ## Visualization:Actual Prices vs Predicted House Prices
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/visual%20code.png)
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/actual.png)
+##### What the Plot Shows
+##### X-axis: Actual house prices (true values from the dataset)
+
+##### Y-axis: Predicted house prices (values your model predicted)
+
+##### Dots: Each dot represents one data point (a house)
+
+##### Red dashed line: The ideal line where predicted price = actual price (a perfect prediction)
+## Interpretation
+##### Many dots lie close to the red line, especially in the middle range of house prices (around 3M–7M), indicating:
+##### The model is relatively accurate in this price range.
+##### Predicted values are aligned with actual values.
+##### Dots below the red line mean the model underestimated the price.
+##### Noticeably, there are several points well below the line, especially for higher actual prices.
+##### Dots above the red line reflect overestimation.
+##### There are fewer such cases, but they still show some predictions higher than they should be.
+##### The model shows reasonable predictive strength, especially in the mid-range of values.
+
+
 
 
 
