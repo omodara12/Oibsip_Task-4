@@ -111,6 +111,8 @@ df[numeric_cols].describe()
 ##### Dots above the red line reflect overestimation.
 ##### There are fewer such cases, but they still show some predictions higher than they should be.
 ##### The model shows reasonable predictive strength, especially in the mid-range of values.
+## Residual
+![](https://github.com/omodara12/Oibsip_Task-4/blob/main/residual%20plo.png)
 
 
 
