@@ -115,6 +115,9 @@ df[numeric_cols].describe()
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/residual%20plo.png)
 ##### The residuals are centered around zero, which is expected in a good model.
 ##### There are some randomness in the spread, indicating the model is not strongly biased in one direction.
+## Conclusion
+##### This project demonstrates the full cycle of predictive modeling using linear regression. Starting with data exploration and cleaning—especially the impact of outliers—we progressed through encoding, modeling, and evaluation.
+
 
 
 
