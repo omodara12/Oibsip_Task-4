@@ -76,6 +76,7 @@ df[numeric_cols].describe()
 ##### )
 ## Model Training
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/model%20t.png)
+## MODEL EVALUATION
 
 
 
