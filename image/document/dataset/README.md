@@ -75,6 +75,7 @@ df[numeric_cols].describe()
     X, y, test_size=0.2, random_state=42
 ##### )
 ## Model Training
+![](https://github.com/omodara12/Oibsip_Task-4/blob/main/model%20t.png)
 
 
 
