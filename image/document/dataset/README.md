@@ -91,6 +91,7 @@ df[numeric_cols].describe()
 ## Interpretation
 ##### • An R² of 0.65 means the model explains ~65% of the variance in housing prices, which is decent for a simple linear model.
 ##### • Removing outliers improved both metrics significantly, showing the importance of data cleaning.
+## Visualization:Actual Prices vs Predicted House Prices
 
 
 
