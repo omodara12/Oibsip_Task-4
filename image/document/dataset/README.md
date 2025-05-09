@@ -56,6 +56,7 @@ df[numeric_cols].describe()
 ##### from sklearn.compose import ColumnTransformer
 
 ## Features and target
+
 ##### X = df.drop("price", axis=1)
 ##### y = df["price"]
 
@@ -64,6 +65,10 @@ df[numeric_cols].describe()
 ##### numeric_cols = X.select_dtypes(exclude="object").columns
 
 ## One-hot encoding for categorical columns
+##### I used one-hot encoding for all categorical columns, transforming binary and nominal values into numeric format. Examples:
+##### •	'yes'/'no' → 1/0
+##### •	'furnished', 'semi-furnished', 'unfurnished' 
+
 ##### preprocessor = ColumnTransformer(
 ##### transformers=[("cat", OneHotEncoder(drop="first"), categorical_cols)],
     
@@ -71,13 +76,25 @@ df[numeric_cols].describe()
 ##### )
 
 ## Train-test split
+##### I split the dataset into training and testing sets (80/20) and trained a Linear Regression model using Scikit-Learn.
 #### X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
+##### X, y, test_size=0.2, random_state=42
 ##### )
 ## Model Training
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/model%20t.png)
 ## MODEL EVALUATION
+##### I split the dataset into training and testing sets (80/20) and trained a Linear Regression model using Scikit-Learn.
+ #### Evaluation Metrics
+##### •	Mean Squared Error (MSE): Measures average squared difference between predicted and actual prices
+##### •	R² Score: Measures how well the model explains variability in housing prices
 ![](https://github.com/omodara12/Oibsip_Task-4/blob/main/mode(ev).png)
+## Interpretation
+##### • An R² of 0.69 means the model explains ~69% of the variance in housing prices, which is decent for a simple linear model.
+##### • Removing outliers improved both metrics significantly, showing the importance of data cleaning.
+
+
+
+
 
 
 
